@@ -1,0 +1,40 @@
+.forecastContainer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 16px;
+  width: 120px;
+  flex: 0 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+}
+
+.card p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 500px) {
+  .cards {
+    justify-content: center;
+  }
+
+  .card {
+    width: 100px;
+  }
+}

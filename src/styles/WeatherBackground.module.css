@@ -1,0 +1,67 @@
+
+.fullScreenBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.contentContainer {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  box-sizing: border-box;
+  color: inherit;
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.bg-clear-day {
+  background: linear-gradient(to bottom, #4facfe, #00f2fe); /* blue to sky */
+  color: #000;
+}
+
+.bg-clear-night {
+  background: linear-gradient(to bottom, #141E30, #243B55); /* dark blue shades */
+  color: #fff;
+}
+
+.bg-clouds-day {
+  background: linear-gradient(to bottom, #d7d2cc, #304352); /* light grey to dark */
+  color: #000;
+}
+
+.bg-clouds-night {
+  background: linear-gradient(to bottom, #232526, #414345); /* grey/black tones */
+  color: #fff;
+}
+
+.bg-rain-day {
+  background: linear-gradient(to bottom, #4e54c8, #8f94fb); /* purple to blue */
+  color: #000;
+}
+
+.bg-rain-night {
+  background: linear-gradient(to bottom, #283048, #859398); /* dark bluish grey */
+  color: #fff;
+}
+
+.bg-snow {
+  background: linear-gradient(to bottom, #e0eafc, #cfdef3); /* icy blue tones */
+  color: #000;
+}
+
+.bg-default-day {
+  background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+  color: #000;
+}
+
+.bg-default-night {
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
